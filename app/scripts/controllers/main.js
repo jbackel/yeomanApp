@@ -7,4 +7,16 @@ angular.module('mockAppApp')
       'AngularJS',
       'Karma'
     ];
+
+
+  })
+  
+  .controller('thisCtrl', function($scope) {
+    $scope.awesomeThings = [
+    'yo dawg',
+    'keep it real',
+    'fo life'
+    ];
   });
+  
+
